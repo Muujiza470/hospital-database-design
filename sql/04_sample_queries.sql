@@ -1,3 +1,11 @@
+/* 
+Hospital Database – Sample SQL Queries
+Author: Preciosa Muujiza Ngoy Kalumba
+
+Description:
+A collection of analytical SQL queries to support hospital operations reporting,
+including patient stays, nurse assignments, treatments, and itemized charges.
+*/
 /* ===== From SQLQuery1.sql ===== */
 SELECT TOP (1000) [BedID]
       ,[Size]
