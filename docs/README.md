@@ -1,14 +1,8 @@
 # Documentation
 
-This folder contains documentation and exports for the Hospital Database project.
-
-## Diagrams
-
-### ERD
-![ERD Diagram](assets/erd-diagram.png)
-
-### EERD
-![EERD Diagram](assets/eerd-diagram.png)
+This folder contains the full written documentation for the Hospital Database project.
 
 ## Files
-- `hospital-database-documentation.docx` (full write-up)
+- hospital-database-documentation.docx
+
+The ERD and EERD diagrams are displayed in the main project README.
