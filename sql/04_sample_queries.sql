@@ -252,3 +252,21 @@ INNER JOIN Treatment t
 ON p.PatientID = PatientID
 INNER JOIN Doctor d 
 ON d.DoctorID = DoctorID
+
+/* ===== From SQLQuery18.sql ===== */
+SELECT 
+    p.PatientID,  
+    p.LastName AS PatientLastName, 
+    i.Name, 
+    i.Charge, 
+    ic.Date
+FROM 
+    Patient p
+INNER JOIN 
+    ItemCharge ic 
+ON 
+    p.PatientID = ic.PatientID
+INNER JOIN 
+    Item i 
+ON 
+    ic.ItemID = i.ItemID
