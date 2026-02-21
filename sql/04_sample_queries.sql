@@ -414,3 +414,20 @@ SELECT TOP (1000) [NurseAssignmentID]
   FROM [HospitaIDictionary].[dbo].[NurseAssignment]
   DELETE FROM NurseAssignment
   WHERE NurseAssignmentID IN (1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021)
+
+/* ===== From SQLQuery36.sql ===== */
+SELECT TOP (1000) [PatientID]
+      ,[FirstName]
+      ,[LastName]
+      ,[Gender]
+      ,[DOB]
+      ,[Street]
+      ,[City]
+      ,[State]
+      ,[Zip]
+      ,[PhoneNumber]
+      ,[AltPhone]
+      ,[Email]
+      ,[Age]
+      ,[BedID]
+  FROM [HospitaIDictionary].[dbo].[Patient]
