@@ -151,6 +151,22 @@ SELECT TOP (1000) [ChargeID]
 ('2024-12-09', 4, 1045, 1009),
 ('2024-12-10', 2, 1046, 1010)
 
+/* ===== From SQLQuery9.sql ===== */
+SELECT TOP (1000) [NurseAssignmentID]
+      ,[AssignDate]
+      ,[StartTime]
+      ,[EndTime]
+      ,[HourCalc]
+      ,[WardID]
+      ,[NurseID]
+  FROM [HospitaIDictionary].[dbo].[NurseAssignment]
+UPDATE NurseAssignment
+SET AssignDate = '2024-12-06',
+    StartTime = '07:00',
+    EndTime = '15:00',
+    WardID = 2,
+    NurseID = 3
+WHERE NurseAssignmentID = 1
 
 
 
