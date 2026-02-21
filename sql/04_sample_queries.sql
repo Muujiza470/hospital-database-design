@@ -83,6 +83,14 @@ VALUES
 ('Psychotherapy', 'Therapy for mental health.', 100.00),
 ('Blood Transfusion', 'Transfer of blood.', 250.00);
 
+/* ===== From SQLQuery4.sql ===== */
+SELECT TOP (1000) [SpecialtyID]
+      ,[Specialty]
+  FROM [HospitaIDictionary].[dbo].[Specialty]
+  update Specialty
+  set Specialty = 'Dentist' 
+  where SpecialtyID = 2
+
 
 
 
