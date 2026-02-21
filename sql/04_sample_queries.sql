@@ -220,3 +220,14 @@ insert into CareEvent
 (EventType, Date, Time, PatientID, NurseID)
 Values 
 ('Christmas', '2024-12-25', '05:00', 4, 2)
+/* ===== From SQLQuery14.sql ===== */
+SELECT TOP (1000) [ChargeID]
+      ,[Date]
+      ,[Quantity]
+      ,[PatientID]
+      ,[ItemID]
+  FROM [HospitaIDictionary].[dbo].[ItemCharge]
+  insert into ItemCharge
+  (Date, Quantity, PatientID, ItemID)
+  Values 
+  ('2024-12-05',5,4,1)
