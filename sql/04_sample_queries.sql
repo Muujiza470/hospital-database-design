@@ -237,3 +237,18 @@ SELECT TOP (1000) [CertID]
   FROM [HospitaIDictionary].[dbo].[Certification]
   DELETE FROM Certification
   WHERE CertID = 1023
+
+/* ===== From SQLQuery17.sql ===== */
+SELECT 
+    p.PatientID, 
+    p.FirstName AS PatientFirstName, 
+    p.LastName AS PatientLastName, 
+    t.Name, 
+    d.DoctorID, 
+    d.FirstName AS DoctorFirstName, 
+    d.LastName AS DoctorLastName
+FROM Patient p
+INNER JOIN Treatment t 
+ON p.PatientID = PatientID
+INNER JOIN Doctor d 
+ON d.DoctorID = DoctorID
