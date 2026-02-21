@@ -45,14 +45,13 @@ This project addresses these challenges through structured relational design.
 Each entity includes defined primary keys and foreign keys to enforce referential integrity.
 
 ---
-
 ## Data Modeling
 
 ### ERD
-![ERD Diagram](assets/erd-diagram.png)
+![ERD Diagram](docs/assets/erd-diagram.png)
 
 ### EERD
-![EERD Diagram](assets/eerd-diagram.png)
+![EERD Diagram](docs/assets/eerd-diagram.png)
 
 The ERD and EERD diagrams illustrate:
 
