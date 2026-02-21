@@ -1,0 +1,6 @@
+SELECT TOP (1000) [BedID]
+      ,[Size]
+      ,[Type]
+      ,[Availability]
+      ,[WardID]
+  FROM [HospitaIDictionary].[dbo].[Bed]

@@ -1,0 +1,17 @@
+SELECT TOP (1000) [PatientID]
+      ,[FirstName]
+      ,[LastName]
+      ,[Gender]
+      ,[DOB]
+      ,[Street]
+      ,[City]
+      ,[State]
+      ,[Zip]
+      ,[PhoneNumber]
+      ,[AltPhone]
+      ,[Email]
+      ,[Age]
+      ,[BedID]
+  FROM [HospitaIDictionary].[dbo].[Patient]
+DELETE FROM Patient
+WHERE PatientID = 5;
