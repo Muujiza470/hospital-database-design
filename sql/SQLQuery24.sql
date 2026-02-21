@@ -1,7 +1,0 @@
-SELECT TOP (1000) [CareEventID]
-      ,[EventType]
-      ,[Date]
-      ,[Time]
-      ,[PatientID]
-      ,[NurseID]
-  FROM [HospitaIDictionary].[dbo].[CareEvent]
