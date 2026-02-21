@@ -339,3 +339,13 @@ ON admitDoc.DoctorID = ds.DoctorID
 LEFT JOIN Ward w 
 ON b.WardID = w.WardID;
 
+/* ===== From SQLQuery21.sql ===== */
+SELECT TOP (1000) [AdminTreatmentID]
+      ,[Date]
+      ,[Time]
+      ,[Results]
+      ,[PatientID]
+      ,[DoctorID]
+      ,[TreatmentID]
+  FROM [HospitaIDictionary].[dbo].[AdminTreatment]
+
