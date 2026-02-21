@@ -4,13 +4,13 @@
 
 This project involves the design and modeling of a relational database system to support hospital operations including patient admissions, nurse assignments, treatments, bed management, and billing.
 
-The objective was to translate real-world hospital workflows into a structured database schema using ERD/EERD modeling, normalization principles, and clearly defined business rules.
+The goal was to translate real-world hospital workflows into a structured relational schema using ERD/EERD modeling, normalization principles, and clearly defined business rules.
 
 ---
 
 ## Business Problem
 
-Hospitals must manage complex relationships between nurses, doctors, patients, wards, treatments, and billing events. Without a structured database:
+Hospitals manage complex relationships between nurses, doctors, patients, wards, treatments, and billing events. Without a structured database system:
 
 - Patient assignments can become inconsistent
 - Bed availability cannot be accurately tracked
@@ -34,8 +34,6 @@ This project addresses these challenges through structured relational design.
 
 ## Entities Modeled
 
-The following core entities were designed:
-
 - **Nurse**
 - **Doctor**
 - **Patient**
@@ -44,11 +42,11 @@ The following core entities were designed:
 - **Treatment**
 - **Item (Charges)**
 
-Each entity includes defined Primary Keys and Foreign Keys to enforce referential integrity.
+Each entity includes defined primary keys and foreign keys to enforce referential integrity.
 
 ---
 
-## Data Modeling Approach
+## Data Modeling
 
 ### ERD
 ![ERD Diagram](assets/erd-diagram.png)
@@ -84,16 +82,56 @@ The ERD and EERD diagrams illustrate:
 The schema was normalized to **Third Normal Form (3NF)** to:
 
 - Eliminate redundancy
-- Ensure data integrity
+- Maintain data integrity
 - Prevent update anomalies
-- Maintain clear functional dependencies
 
 ---
 
 ## SQL Implementation
 
-The repository includes structured SQL query examples used to retrieve operational and analytical insights from the hospital database.
+Sample reporting queries are included in:
 
-### Sample SQL Queries
-Located in:
+These queries demonstrate:
+
+- Multi-table joins
+- Aggregations
+- Operational reporting logic
+- Analytical data retrieval
+
+---
+
+## Project Structure
+hospital-database-design/
+│
+├── assets/
+│ ├── erd-diagram.png
+│ └── eerd-diagram.png
+│
+├── docs/
+│ └── hospital-database-documentation.docx
+│
+├── sql/
+│ └── 04_sample_queries.sql
+│
+└── README.md
+
+---
+
+## Key Concepts Demonstrated
+
+- ERD & EERD Modeling
+- Cardinality & Optionality
+- Referential Integrity
+- Schema Normalization (3NF)
+- SQL Query Development
+- Translation of Business Rules into Data Structures
+
+---
+
+## Author
+
+Preciosa Muujiza Ngoy Kalumba  
+M.S. Artificial Intelligence & Business Analytics  
+University of South Florida
+
 
