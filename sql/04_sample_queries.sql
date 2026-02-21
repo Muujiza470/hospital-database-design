@@ -231,3 +231,9 @@ SELECT TOP (1000) [ChargeID]
   (Date, Quantity, PatientID, ItemID)
   Values 
   ('2024-12-05',5,4,1)
+/* ===== From SQLQuery15.sql ===== */
+SELECT TOP (1000) [CertID]
+      ,[Certification]
+  FROM [HospitaIDictionary].[dbo].[Certification]
+  DELETE FROM Certification
+  WHERE CertID = 1023
