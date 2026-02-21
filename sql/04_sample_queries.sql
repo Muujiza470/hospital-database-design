@@ -109,6 +109,13 @@ SELECT TOP (1000) [PatientID]
 DELETE FROM Patient
 WHERE PatientID = 5;
 
+/* ===== From SQLQuery6.sql ===== */
+SELECT TOP (1000) [CertID]
+      ,[Certification]
+  FROM [HospitaIDictionary].[dbo].[Certification]
+Update Certification
+set Certification = 'Emergency Med Technician'
+Where CertID = 2
 
 
 
