@@ -90,6 +90,25 @@ SELECT TOP (1000) [SpecialtyID]
   update Specialty
   set Specialty = 'Dentist' 
   where SpecialtyID = 2
+/* ===== From SQLQuery5.sql ===== */
+SELECT TOP (1000) [PatientID]
+      ,[FirstName]
+      ,[LastName]
+      ,[Gender]
+      ,[DOB]
+      ,[Street]
+      ,[City]
+      ,[State]
+      ,[Zip]
+      ,[PhoneNumber]
+      ,[AltPhone]
+      ,[Email]
+      ,[Age]
+      ,[BedID]
+  FROM [HospitaIDictionary].[dbo].[Patient]
+DELETE FROM Patient
+WHERE PatientID = 5;
+
 
 
 
