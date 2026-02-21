@@ -370,3 +370,12 @@ SELECT TOP (1000) [AdmitID]
  ('2024-12-20', NULL, 1045, 2, NULL),
  ('2024-12-22', '2024-12-28', 1046, 1002, 1003),
  ('2024-12-25', '2024-12-30', 1047, 1004, 1005);
+
+/* ===== From SQLQuery24.sql ===== */
+SELECT TOP (1000) [CareEventID]
+      ,[EventType]
+      ,[Date]
+      ,[Time]
+      ,[PatientID]
+      ,[NurseID]
+  FROM [HospitaIDictionary].[dbo].[CareEvent]
