@@ -117,6 +117,22 @@ Update Certification
 set Certification = 'Emergency Med Technician'
 Where CertID = 2
 
+/* ===== From SQLQuery7.sql ===== */      
+SELECT TOP (1000) [NurseID]
+      ,[FirstName]
+      ,[LastName]
+      ,[Street]
+      ,[City]
+      ,[State]
+      ,[Zip]
+      ,[PhoneNumber]
+      ,[AlternatePhone]
+      ,[Email]
+      ,[supervisorID]
+  FROM [HospitaIDictionary].[dbo].[Nurse]
+
+
+
 
 
 
