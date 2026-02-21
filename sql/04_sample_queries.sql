@@ -179,5 +179,11 @@ on p.BedID = b.BedID
 ORDER BY 
     ad.AdmitDate ASC
 
-
+/* ===== From SQLQuery11.sql ===== */
+SELECT TOP (1000) [BedID]
+      ,[Size]
+      ,[Type]
+      ,[Availability]
+      ,[WardID]
+  FROM [HospitaIDictionary].[dbo].[Bed]
 
