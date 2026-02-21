@@ -1,8 +1,0 @@
-SELECT TOP (1000) [AdminTreatmentID]
-      ,[Date]
-      ,[Time]
-      ,[Results]
-      ,[PatientID]
-      ,[DoctorID]
-      ,[TreatmentID]
-  FROM [HospitaIDictionary].[dbo].[AdminTreatment]
