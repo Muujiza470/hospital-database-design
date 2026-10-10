@@ -1,6 +1,6 @@
 # SQL
 
-This folder contains SQL scripts used for analysis/reporting in the hospital database project.
+Reporting and data-loading queries written against the hospital database (SQL Server / T-SQL).
 
 ## Files
-- `04_sample_queries.sql` — sample queries demonstrating joins, aggregations, and operational reporting logic.This folder contains SQL scripts for database creation and queries.
+- `04_sample_queries.sql`: sample data inserts plus reporting queries using joins and aggregations across patients, beds, nurses, treatments, and charges.

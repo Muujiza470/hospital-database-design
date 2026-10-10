@@ -7,10 +7,19 @@ The system translates real-world hospital workflows into structured relational s
 
 ---
 
+## What the database covers
+- **Patients & admissions**: patient records linked to their assigned bed and ward
+- **Beds & wards**: bed size, type (medical/emergency), and live availability
+- **Staff**: nurse assignments to patients and wards
+- **Treatments & billing**: treatments given and itemized charges per stay
+
+## Skills shown
+Entity-relationship modeling (ERD + EERD with specialization), normalization to 3NF, relational schema design, and SQL reporting with joins and aggregations (SQL Server / T-SQL).
+
 ## Project Structure
 - **assets/** → ERD and EERD diagrams  
-- **docs/** → Full project documentation  
-- **sql/** → Sample SQL queries  
+- **docs/** → Full project documentation (data dictionary and design write-up)  
+- **sql/** → SQL scripts and reporting queries  
 
 ---
 
